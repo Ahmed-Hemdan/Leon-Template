@@ -324,3 +324,34 @@ header .links ul li a:hover {
         display: none;
     }
 }
+
+/* End Services */
+/* Start Portfolio */
+.Portfolio{
+    background-color: #f6f6f6;
+}
+
+.Portfolio .Portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 40px;
+    margin-top: 80px;
+}
+
+.Portfolio .Portfolio-content .card {
+    background-color: white;
+}
+
+.Portfolio .Portfolio-content .card img{
+    width: 100%;
+}
+
+.Portfolio .Portfolio-content .card .info {
+    padding: 20px;
+}
+.Portfolio .Portfolio-content .card .info h3{
+    margin: 0;
+}
+.Portfolio .Portfolio-content .card .info p{
+    margin: 0;
+}
