@@ -2,7 +2,9 @@
     --main-color: #10cab7;
     --secondary-color: #2c4755;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* Start Components */
 .special-heading {
     font-weight: 800;
@@ -469,7 +471,7 @@ header .links ul li a:hover {
     text-align: center;
 }
 
-.Contact .Contact-content .label{
+.Contact .Contact-content .label {
     font-size: 35px;
     font-weight: 800;
     color: var(--secondary-color);
@@ -477,50 +479,57 @@ header .links ul li a:hover {
     margin-bottom: 20px;
 }
 
-.Contact .Contact-content a  {
+.Contact .Contact-content a {
     text-decoration: none;
     color: var(--main-color);
     font-size: 35px;
-    font-weight: 800;   
-    margin-top:0;
+    font-weight: 800;
+    margin-top: 0;
 }
-.Contact .Contact-content .social{
+
+.Contact .Contact-content .social {
     margin-top: 20px;
 }
-.social div{
+
+.social div {
     display: inline-block;
 }
-.Contact .Contact-content i{
+
+.Contact .Contact-content i {
     margin-left: 10px;
 }
-@media (max-width:630px){
-    .Contact .Contact-content{
+
+@media (max-width:630px) {
+    .Contact .Contact-content {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
-    .Contact .Contact-content .label{
+
+    .Contact .Contact-content .label {
         font-size: 15px;
     }
-    .Contact .Contact-content a{
+
+    .Contact .Contact-content a {
         font-size: 13px;
     }
 }
 
-@media (max-width: 320px){
-    .Contact .Contact-content .social{
-        display:flex;
+@media (max-width: 320px) {
+    .Contact .Contact-content .social {
+        display: flex;
         flex-direction: column;
         justify-content: center;
-        gap:10px;
-    }   
-    .Contact .Contact-content{
+        gap: 10px;
+    }
+
+    .Contact .Contact-content {
         justify-content: center;
         align-items: center;
     }
 }
 
-.footer{
+.footer {
     background-color: var(--secondary-color);
     color: white;
     font-weight: 700;
@@ -529,12 +538,13 @@ header .links ul li a:hover {
     padding-bottom: 30px;
     width: 100%;
 }
-.footer span{
+
+.footer span {
     color: var(--main-color);
 }
 
-@media (max-width: 320px){
-    .footer{
-        font-size:12px ;
+@media (max-width: 320px) {
+    .footer {
+        font-size: 12px;
     }
 }
